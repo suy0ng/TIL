@@ -14,7 +14,7 @@ function merge< A ,B >(a:A, b:B) : A & B {
 const merged = merge({foo:1},{bar:1})
 ```
 
-이렇게 함수에서 Generic를 사용하면 다양한 타입을 넣을 수 도 이쏘 타입 지원으 지켜낼 수 있습니다.
+이렇게 함수에서 Generic를 사용하면 다양한 타입을 넣을 수 도 있고 타입 지원으 지켜낼 수 있습니다.
 
 이번에는 타입에서 Generic를 사용해보겠습니다. 
 
